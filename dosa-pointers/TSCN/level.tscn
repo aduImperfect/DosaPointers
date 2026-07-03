@@ -4,20 +4,268 @@
 
 [node name="Level" type="Node2D" unique_id=1957075048]
 
-[node name="Plate1" parent="." unique_id=1268479344 instance=ExtResource("1_ar723")]
-position = Vector2(212, 293)
+[node name="Plate0" parent="." unique_id=1268479344 instance=ExtResource("1_ar723")]
+position = Vector2(200, 100)
+
+[node name="Plate1" parent="." unique_id=257204074 instance=ExtResource("1_ar723")]
+position = Vector2(200, 180)
 plateVal = 1
 
 [node name="Plate2" parent="." unique_id=1341731604 instance=ExtResource("1_ar723")]
-position = Vector2(494, 374)
+position = Vector2(200, 260)
+plateVal = 2
+
+[node name="Plate3" parent="." unique_id=45719876 instance=ExtResource("1_ar723")]
+position = Vector2(200, 340)
+plateVal = 3
+
+[node name="Plate4" parent="." unique_id=1744917772 instance=ExtResource("1_ar723")]
+position = Vector2(200, 420)
+plateVal = 5
+
+[node name="Plate5" parent="." unique_id=1594622732 instance=ExtResource("1_ar723")]
+position = Vector2(200, 500)
+plateVal = 4
+
+[node name="Plate6" parent="." unique_id=380925222 instance=ExtResource("1_ar723")]
+position = Vector2(280, 100)
+plateVal = 1
+
+[node name="Plate7" parent="." unique_id=1685890352 instance=ExtResource("1_ar723")]
+position = Vector2(280, 180)
+plateVal = 2
+
+[node name="Plate8" parent="." unique_id=1951295928 instance=ExtResource("1_ar723")]
+position = Vector2(280, 260)
+plateVal = 3
+
+[node name="Plate9" parent="." unique_id=2010503708 instance=ExtResource("1_ar723")]
+position = Vector2(280, 340)
+plateVal = 5
+
+[node name="Plate10" parent="." unique_id=110980949 instance=ExtResource("1_ar723")]
+position = Vector2(280, 420)
+plateVal = 4
+
+[node name="Plate11" parent="." unique_id=1873632336 instance=ExtResource("1_ar723")]
+position = Vector2(280, 500)
+plateVal = 2
+
+[node name="Plate12" parent="." unique_id=987349955 instance=ExtResource("1_ar723")]
+position = Vector2(360, 100)
+plateVal = 2
+
+[node name="Plate13" parent="." unique_id=78363530 instance=ExtResource("1_ar723")]
+position = Vector2(360, 180)
+plateVal = 3
+
+[node name="Plate14" parent="." unique_id=2103646330 instance=ExtResource("1_ar723")]
+position = Vector2(360, 260)
+plateVal = 5
+
+[node name="Plate15" parent="." unique_id=1664034 instance=ExtResource("1_ar723")]
+position = Vector2(360, 340)
+plateVal = 4
+
+[node name="Plate16" parent="." unique_id=1037819082 instance=ExtResource("1_ar723")]
+position = Vector2(360, 420)
+plateVal = 2
+
+[node name="Plate17" parent="." unique_id=1595182334 instance=ExtResource("1_ar723")]
+position = Vector2(360, 500)
+plateVal = 1
+
+[node name="Plate18" parent="." unique_id=783744224 instance=ExtResource("1_ar723")]
+position = Vector2(440, 100)
+plateVal = 3
+
+[node name="Plate19" parent="." unique_id=1262626063 instance=ExtResource("1_ar723")]
+position = Vector2(440, 180)
+plateVal = 5
+
+[node name="Plate20" parent="." unique_id=1647309704 instance=ExtResource("1_ar723")]
+position = Vector2(440, 260)
+plateVal = 4
+
+[node name="Plate21" parent="." unique_id=1535992282 instance=ExtResource("1_ar723")]
+position = Vector2(440, 340)
+plateVal = 2
+
+[node name="Plate22" parent="." unique_id=529473293 instance=ExtResource("1_ar723")]
+position = Vector2(440, 420)
+
+[node name="Plate23" parent="." unique_id=1704587706 instance=ExtResource("1_ar723")]
+position = Vector2(440, 500)
 plateVal = 2
 teamNo = 1
 
-[node name="Plate3" parent="." unique_id=45719876 instance=ExtResource("1_ar723")]
-position = Vector2(437, 172)
+[node name="Plate24" parent="." unique_id=861204587 instance=ExtResource("1_ar723")]
+position = Vector2(520, 100)
+plateVal = 5
+
+[node name="Plate25" parent="." unique_id=330940043 instance=ExtResource("1_ar723")]
+position = Vector2(520, 180)
+plateVal = 4
+
+[node name="Plate26" parent="." unique_id=633023430 instance=ExtResource("1_ar723")]
+position = Vector2(520, 260)
+plateVal = 2
+
+[node name="Plate27" parent="." unique_id=1002408802 instance=ExtResource("1_ar723")]
+position = Vector2(520, 340)
+plateVal = 5
+
+[node name="Plate28" parent="." unique_id=963261096 instance=ExtResource("1_ar723")]
+position = Vector2(520, 420)
+plateVal = 2
+teamNo = 1
+
+[node name="Plate29" parent="." unique_id=1323381034 instance=ExtResource("1_ar723")]
+position = Vector2(520, 500)
+plateVal = 4
+teamNo = 1
+
+[node name="Plate30" parent="." unique_id=980088799 instance=ExtResource("1_ar723")]
+position = Vector2(600, 100)
+plateVal = 4
+
+[node name="Plate31" parent="." unique_id=1038730852 instance=ExtResource("1_ar723")]
+position = Vector2(600, 180)
+plateVal = 2
+
+[node name="Plate32" parent="." unique_id=693175538 instance=ExtResource("1_ar723")]
+position = Vector2(600, 260)
+plateVal = 5
+teamNo = 1
+
+[node name="Plate33" parent="." unique_id=2090481936 instance=ExtResource("1_ar723")]
+position = Vector2(600, 340)
+plateVal = 2
+teamNo = 1
+
+[node name="Plate34" parent="." unique_id=941465910 instance=ExtResource("1_ar723")]
+position = Vector2(600, 420)
+plateVal = 4
+teamNo = 1
+
+[node name="Plate35" parent="." unique_id=262758685 instance=ExtResource("1_ar723")]
+position = Vector2(600, 500)
+plateVal = 5
+teamNo = 1
+
+[node name="Plate36" parent="." unique_id=157544826 instance=ExtResource("1_ar723")]
+position = Vector2(680, 100)
+plateVal = 2
+
+[node name="Plate37" parent="." unique_id=582592144 instance=ExtResource("1_ar723")]
+position = Vector2(680, 180)
+teamNo = 1
+
+[node name="Plate38" parent="." unique_id=1280233933 instance=ExtResource("1_ar723")]
+position = Vector2(680, 260)
+plateVal = 2
+teamNo = 1
+
+[node name="Plate39" parent="." unique_id=1838911751 instance=ExtResource("1_ar723")]
+position = Vector2(680, 340)
+plateVal = 4
+teamNo = 1
+
+[node name="Plate40" parent="." unique_id=2084563585 instance=ExtResource("1_ar723")]
+position = Vector2(680, 420)
+plateVal = 5
+teamNo = 1
+
+[node name="Plate41" parent="." unique_id=342787183 instance=ExtResource("1_ar723")]
+position = Vector2(680, 500)
 plateVal = 3
 teamNo = 1
 
-[node name="Plate4" parent="." unique_id=1744917772 instance=ExtResource("1_ar723")]
-position = Vector2(763, 334)
+[node name="Plate42" parent="." unique_id=1888179535 instance=ExtResource("1_ar723")]
+position = Vector2(760, 100)
+plateVal = 1
+teamNo = 1
+
+[node name="Plate43" parent="." unique_id=236984967 instance=ExtResource("1_ar723")]
+position = Vector2(760, 180)
+plateVal = 2
+teamNo = 1
+
+[node name="Plate44" parent="." unique_id=1566982197 instance=ExtResource("1_ar723")]
+position = Vector2(760, 260)
+plateVal = 4
+teamNo = 1
+
+[node name="Plate45" parent="." unique_id=1532269987 instance=ExtResource("1_ar723")]
+position = Vector2(760, 340)
 plateVal = 5
+teamNo = 1
+
+[node name="Plate46" parent="." unique_id=996021053 instance=ExtResource("1_ar723")]
+position = Vector2(760, 420)
+plateVal = 3
+teamNo = 1
+
+[node name="Plate47" parent="." unique_id=2145695092 instance=ExtResource("1_ar723")]
+position = Vector2(760, 500)
+plateVal = 2
+teamNo = 1
+
+[node name="Plate48" parent="." unique_id=2073726316 instance=ExtResource("1_ar723")]
+position = Vector2(840, 100)
+plateVal = 2
+teamNo = 1
+
+[node name="Plate49" parent="." unique_id=1533401455 instance=ExtResource("1_ar723")]
+position = Vector2(840, 180)
+plateVal = 4
+teamNo = 1
+
+[node name="Plate50" parent="." unique_id=265597441 instance=ExtResource("1_ar723")]
+position = Vector2(840, 260)
+plateVal = 5
+teamNo = 1
+
+[node name="Plate51" parent="." unique_id=1510589310 instance=ExtResource("1_ar723")]
+position = Vector2(840, 340)
+plateVal = 3
+teamNo = 1
+
+[node name="Plate52" parent="." unique_id=294472095 instance=ExtResource("1_ar723")]
+position = Vector2(840, 420)
+plateVal = 2
+teamNo = 1
+
+[node name="Plate53" parent="." unique_id=1165670125 instance=ExtResource("1_ar723")]
+position = Vector2(840, 500)
+plateVal = 1
+teamNo = 1
+
+[node name="Plate54" parent="." unique_id=1777549354 instance=ExtResource("1_ar723")]
+position = Vector2(920, 100)
+plateVal = 4
+teamNo = 1
+
+[node name="Plate55" parent="." unique_id=202214439 instance=ExtResource("1_ar723")]
+position = Vector2(920, 180)
+plateVal = 5
+teamNo = 1
+
+[node name="Plate56" parent="." unique_id=1543329298 instance=ExtResource("1_ar723")]
+position = Vector2(920, 260)
+plateVal = 3
+teamNo = 1
+
+[node name="Plate57" parent="." unique_id=70857990 instance=ExtResource("1_ar723")]
+position = Vector2(920, 340)
+plateVal = 2
+teamNo = 1
+
+[node name="Plate58" parent="." unique_id=1150019948 instance=ExtResource("1_ar723")]
+position = Vector2(920, 420)
+plateVal = 1
+teamNo = 1
+
+[node name="Plate59" parent="." unique_id=1285729599 instance=ExtResource("1_ar723")]
+position = Vector2(920, 500)
+teamNo = 1
