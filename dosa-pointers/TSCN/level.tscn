@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://cw2vsvkhbobeu"]
 
 [ext_resource type="PackedScene" uid="uid://cbhxm7ts62dt6" path="res://TSCN/plate.tscn" id="1_ar723"]
+[ext_resource type="Script" uid="uid://du0mtvh3luf2a" path="res://TSCN/level.gd" id="1_ucb7h"]
 
 [node name="Level" type="Node2D" unique_id=1957075048]
+script = ExtResource("1_ucb7h")
 
 [node name="Plate0" parent="." unique_id=1268479344 instance=ExtResource("1_ar723")]
 position = Vector2(200, 100)
