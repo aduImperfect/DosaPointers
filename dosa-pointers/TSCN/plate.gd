@@ -44,7 +44,6 @@ func _ready() -> void:
 
 	#non-static vars
 	sprite = get_child(0) as Sprite2D
-	teamNo = 0
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
