@@ -1,12 +1,23 @@
 [gd_scene format=3 uid="uid://cw2vsvkhbobeu"]
 
-[ext_resource type="PackedScene" uid="uid://bd6c24l3usbs0" path="res://TSCN/plate_a.tscn" id="1_ucb7h"]
-[ext_resource type="PackedScene" uid="uid://c0rbw73e6r6ok" path="res://TSCN/plate_b.tscn" id="2_kk7ja"]
+[ext_resource type="PackedScene" uid="uid://cbhxm7ts62dt6" path="res://TSCN/plate.tscn" id="1_ar723"]
 
 [node name="Level" type="Node2D" unique_id=1957075048]
 
-[node name="PlateA" parent="." unique_id=281773621 instance=ExtResource("1_ucb7h")]
-position = Vector2(362, 426)
+[node name="Plate1" parent="." unique_id=1268479344 instance=ExtResource("1_ar723")]
+position = Vector2(212, 293)
+plateVal = 1
 
-[node name="PlateB" parent="." unique_id=985205898 instance=ExtResource("2_kk7ja")]
-position = Vector2(613, 361)
+[node name="Plate2" parent="." unique_id=1341731604 instance=ExtResource("1_ar723")]
+position = Vector2(494, 374)
+plateVal = 2
+teamNo = 1
+
+[node name="Plate3" parent="." unique_id=45719876 instance=ExtResource("1_ar723")]
+position = Vector2(437, 172)
+plateVal = 3
+teamNo = 1
+
+[node name="Plate4" parent="." unique_id=1744917772 instance=ExtResource("1_ar723")]
+position = Vector2(763, 334)
+plateVal = 5

@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://cbhxm7ts62dt6"]
 
+[ext_resource type="Script" uid="uid://bgrd6kxs0elga" path="res://TSCN/plate.gd" id="1_5io8v"]
 [ext_resource type="Texture2D" path="res://Textures/Plate_0.png" id="1_vlvh0"]
 
 [node name="Plate" type="Node2D" unique_id=1268479344]
+script = ExtResource("1_5io8v")
 
 [node name="Plate_Image" type="Sprite2D" parent="." unique_id=1979477024]
 scale = Vector2(0.1, 0.1)

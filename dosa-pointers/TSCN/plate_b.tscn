@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://c0rbw73e6r6ok"]
-
-[ext_resource type="Texture2D" uid="uid://dt1hbjuf70cpp" path="res://Textures/PlateB_0.png" id="1_7me47"]
-
-[node name="PlateB" type="Node2D" unique_id=985205898]
-
-[node name="PlateB_Image" type="Sprite2D" parent="." unique_id=1455335610]
-scale = Vector2(0.1, 0.1)
-texture = ExtResource("1_7me47")
